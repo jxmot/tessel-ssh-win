@@ -31,7 +31,7 @@ Before continuing please read through this tutorial and have -
 
 By this point your **Tessel 2** is powered on, initialized, and have confirmed that it's running correctly.
 
-Next we'll need the IP address of your *Tessel 2**. This can be done with this command -
+Next we'll need the IP address of your **Tessel 2**. This can be done with this command -
 
 `t2 wifi`
 
