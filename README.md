@@ -86,8 +86,8 @@ You will see the following dialog box (*this assumes this is your very first use
 
 Navigate to `C:\Users\USERNAME\.tessel` where `USERNAME` is your current Windows login and select `id_rsa.pub` and click *Open*. Then - 
 
-* Fill in the *Host* with Tessel's IP address, this was seen when you ran the `ts wifi` command.
-* Then in the *Comments* field add `Tessel-xxxxxxxxxxxx`, this was also seen when you ran the `ts wifi` command.
+* Fill in the *Host* with Tessel's IP address, this was seen when you ran the `t2 wifi` command.
+* Then in the *Comments* field add `Tessel-xxxxxxxxxxxx`, this was also seen when you ran the `t2 wifi` command.
 
 ![bitvise-hostkeymgr import key](./mdimg/bv-5b.png)
 
@@ -115,7 +115,7 @@ Navigate to `C:\Users\USERNAME\.tessel` where `USERNAME` is your current Windows
 
 The file `id_rsa` should be visible, select it and click *Open*.
 
-**8)** Then in the resulting dialog box fill in the *Comments* field with `Tessel-xxxxxxxxxxxx`, this was seen when you ran the `ts wifi` command.
+**8)** Then in the resulting dialog box fill in the *Comments* field with `Tessel-xxxxxxxxxxxx`, this was seen when you ran the `t2 wifi` command.
 
 ![bitvise-clientkeymgr import key](./mdimg/bv-8.png)
 
