@@ -2,6 +2,7 @@
 
 * [Overview](#overview)
 * [Requirements](#requirements)
+    * [Notes on PuTTY](#notes-on-putty) 
 * [Connecting to your Tessel 2](#connecting-to-your-tessel-2)
     * [Instructions](#instructions)
     * [Additional Notes](#additional-notes)
@@ -26,6 +27,17 @@ Before continuing please read through this tutorial and have -
     * Completed the "blinky" exercise and and have it working.
 * An SSH client of your choice successfully installed. I prefer *Bitvise*(<https://www.bitvise.com>), it's full featured and offers a *free* licensing option.
 * Located the *key* files that were created when you ran the `t2 provision` command. They are typically located in `C:\Users\USERNAME\.tessel` where `USERNAME` is your current Windows login. For example, if you logged into Windows using "JustAWinUser" then you will find the files in `C:\Users\JustAWinUser\.tessel`.
+
+## Notes on PuTTY
+
+I decided to give PuTTY a try, and unfortunately I could not get it working. There might be a way but I'm not aware of it. It appears to me that - 
+
+* The Tessel 2 does contain the *private* and *public* SSH keys. The private key *seems* to be part of the OpenWRT installation on the Tessel 2. And there is an `authorized_keys` file and it seems that the `t2 provision` command causes the creation of that file.
+* PuTTY expects to generate its own *public* key and then store that on the "server". I'm not sure if that's compatible with the Tessel 2 way of doing thing. I didn't want to risk it and end up spending more time on getting SSH working than I had available to me.
+
+In addition PuTTY is definitely not *intuitive*. When I first started using *Bitvise* a few years ago it was straight forward and not overly complicated. Applying the keys required *some* reading of help files, and poking around in the GUI but I understood it quickly.
+
+I've used PuTTY in the past for serial and telnet and it worked very well. And I will probably continue using it for just those things.
 
 # Connecting to your Tessel 2
 
