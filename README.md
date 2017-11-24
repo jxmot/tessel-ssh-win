@@ -208,3 +208,6 @@ My favorite development tools that I used were -
 
 * **Gitkraken** : <https://www.gitkraken.com/>
 
+<br>
+<br>
+&copy; 2017 James Motyl
