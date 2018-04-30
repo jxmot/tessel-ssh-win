@@ -23,10 +23,14 @@ This is a short tutorial on getting an SSH client running on Windows to work wit
 Before continuing please read through this tutorial and have - 
 
 * A Tessel 2 - The following *must* be completed before starting this tutorial :
-    * You should already have connected your Tessel 2 to your PC and have completed the initialization steps as described in the Tessel 2 documentation(<https://tessel.github.io/t2-start/>).
+    * You should already have connected your Tessel 2 to your PC and have completed the initialization steps as described in the Tessel 2 [documentation](https://tessel.github.io/t2-start/).
     * Completed the "blinky" exercise and and have it working.
-* An SSH client of your choice successfully installed. I prefer *Bitvise*(<https://www.bitvise.com>), it's full featured and offers a *free* licensing option.
+* An SSH client of your choice successfully installed. I prefer [*Bitvise*](https://www.bitvise.com), it's full featured and offers a *free* licensing option.
 * Located the *key* files that were created when you ran the `t2 provision` command. They are typically located in `C:\Users\USERNAME\.tessel` where `USERNAME` is your current Windows login. For example, if you logged into Windows using "JustAWinUser" then you will find the files in `C:\Users\JustAWinUser\.tessel`.
+    * If you've got more than one Tessel 2 you can copy *each* Tessel's files to an alternative location. Then when you return to working on a specific Tessl you can copy those files back to `C:\Users\USERNAME\.tessel`. Those files are - 
+        * `id_rsa`
+        * `id_rsa.pub`
+        * `preferences.json` - I believe this file is over-written when running an application on the Tessel 2.
 
 ## Notes on PuTTY
 
